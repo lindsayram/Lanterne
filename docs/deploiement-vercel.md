@@ -11,13 +11,27 @@
 - npm install (installer les dépendances)
 - node index.js (lancer le serveur)
 
+### Arborescence
+```
+Projet_Lanterne
+|
+├── api
+|    └── data
+|    |     └── curiosities.json
+|    └── index.js
+├── docs
+└── tests
+└── package-lock.json
+└── package.json
+└── vercel.json
+```
 ## Liaison avec Vercel 
 Lier son compte Vercel à son GitHub.
 
 ## Les environnements Preview et Production
-Environnement preview : utiliser pour réaliser des tests sans impacter le site final
+**Environnement preview** : utiliser pour réaliser des tests sans impacter le site final
 
-Environnement de production : les changements finaux sont établis, le site est prêt à être utilisé par les utilisateurs
+**Environnement de production** : les changements finaux sont établis, le site est prêt à être utilisé par les utilisateurs.
 **ATTENTION** Les valeurs de production ne doivent pas être stockés dans votre repository car ce sont des clés secrètes et permettent la configuration du projet.
 
 ## Les variables d’environnement
@@ -65,3 +79,22 @@ Mise à jour sur le fichier curiosities.json :
     "description": "Un arbre datant de plus de 100 ans, on raconte que le soir venu, des chuchotis se font entendre"
 }
 ```
+Après avoir poussé ma modification sur GitHub, le déploiement sur Vercel de cette nouvelle version se fait automatiquement.
+
+- `Get /api/curiosities/arbre-maudit`
+
+Status code attendu : 200
+
+Status code obtenu : 200
+
+![image](./img/test6.png)
+
+Retour en arrière :
+
+Sur Vercel, dans la section **Overview** de mon projet, j'utilise **Instant Rollback** pour revenir à la version précédente.
+
+![image](./img/test7.png)
+
+Status code attendu : 404
+
+Status code obtenu : 404

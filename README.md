@@ -10,10 +10,10 @@ Lanterne est une API REST Express qui référence des curiosités locales : lieu
 ## Installation et lancement local
 
 ```text
-pnpm install
-pnpm run check
-pnpm test
-pnpm start
+npm install
+npm run check
+npm test
+npm start
 ```
 
 L’API est disponible sur `http://localhost:3000`.
