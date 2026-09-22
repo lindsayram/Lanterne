@@ -1,4 +1,6 @@
 {
-    "source": "/(.*)",
-      "destination": "/api/index.js"
+   "redirects":[{
+        "source": "/(.*)",
+        "destination": "/api/index.js"
+   }] 
 }
