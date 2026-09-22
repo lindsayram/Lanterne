@@ -4,9 +4,12 @@
 - Compte Vercel
 - Repository GitHub 
 - Node.js 20.x, 22.x, 24.x
-- fichiers sensibles (.env) à mettre dans le .gitignore
+- fichiers sensibles (.env,node_modules) à mettre dans le .gitignore
 
 ## Installation locale 
+- npm install (installer les dépendances)
+- node index.js (lancer le serveur)
+
 ## Liaison avec Vercel 
 Lier son compte Vercel à son GitHub.
 

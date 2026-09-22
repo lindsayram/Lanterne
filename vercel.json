@@ -1,6 +1,6 @@
 {
-   "redirects":[{
-        "source": "/(.*)",
+   "rewrites":[{
+        "source": "/:path*",
         "destination": "/api/index.js"
    }] 
 }
