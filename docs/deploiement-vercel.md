@@ -54,3 +54,14 @@ Une fois tous les prérequis sont installés et configurés:
 URL public de mon projet : `https://lanterne-psi.vercel.app/`
 
 ## La mise à jour et le retour arrière
+
+Mise à jour sur le fichier curiosities.json :
+```json
+{
+    "slug": "arbre-maudit",
+    "title": "L'arbre maudit'",
+    "city": "Brignoles",
+    "category": "nature",
+    "description": "Un arbre datant de plus de 100 ans, on raconte que le soir venu, des chuchotis se font entendre"
+}
+```

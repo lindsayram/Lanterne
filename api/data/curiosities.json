@@ -40,5 +40,12 @@
     "city": "La Rochelle",
     "category": "mémoire",
     "description": "Une ancienne remise de quai devenue un repère pour les promeneurs curieux."
+  },
+  {
+    "slug": "arbre-maudit",
+    "title": "L'arbre maudit'",
+    "city": "Brignoles",
+    "category": "nature",
+    "description": "Un arbre datant de plus de 100 ans, on raconte que le soir venu, des chuchotis se font entendre"
   }
 ]
