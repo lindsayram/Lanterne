@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "API REST Express des curiosités locales Lanterne",
-  "packageManager": "pnpm@11.19.0",
   "engines": {
     "node": ">=20"
   },
